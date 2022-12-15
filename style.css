@@ -1,0 +1,221 @@
+header{
+    display: flex;
+    flex: auto;
+    background-color: #122a57;
+    height: 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .list-items {
+    display: flex;
+
+    max-width: 250px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: small;
+}
+
+header h1{
+    color: #fff;
+    font-size: 25pt;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.list-items li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-container, .flex-apresentacao{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+.flex-apresentacao{
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.apresentacao, .quem-somos{
+    display: flex;
+    flex-direction: row;
+    height: 420px;
+    width: 992px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+    color: #122A57;
+}
+
+.apresentacao h1 {
+    font-size: 37pt;
+    margin-bottom: 15px;
+}
+
+.apresentacao a{
+    display: block;
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 40px;
+    width: 201px;
+    height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 5px; 
+}
+
+.apresentacao a:hover {
+    transition: 0.5s all;
+    transform: scale(1.01);
+    background-color: #1a3a75;
+}
+
+.quem-somos h2 {
+    font-size: 25pt;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+.quem-somos p {
+    margin-bottom: 15px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center; 
+    background-color: #122a57;  
+    width: 100%;
+    height: 500px;  
+}
+
+.flex-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 992px;
+    width: 100%;
+    color: #fff;
+}
+
+.servicos-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.center-img p {
+    font-size: 15pt;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.servicos h2 {
+    font-size: 30pt;
+    margin-left: 0px;
+    
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 8px; 
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.botao-serv {
+    background-color: rgb(243, 243, 243);
+    color: #122A57;
+}
+
+.botao-serv:hover {
+    background-color: #fff;
+    transition: 0.5s all;
+    transform: scale(1.01);
+}
+
+.planos {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.div-planos {
+    border: solid 5px #122A57;
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+    color: #122A57;      
+}
+
+ .div-planos:hover {
+    background-color: rgb(245, 245, 245);
+    transition: 0.3s all;
+    transform: scale(1.01);
+    box-shadow: 10px 10px 30px black;
+} 
+
+.div-planos h3 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid #122A57;
+    padding: 20px;
+    margin-bottom: 20px;     
+}
+
+.botao-planos {
+    background-color: #122A57;
+    color: #fff;
+    margin: 10px;      
+}
+
+.botao-planos:hover {
+    background-color: #1a3a75;
+}
+
+.div-planos ul {
+    list-style: square;
+    margin: 5px;
+}
+
+.list-planos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: #122A57;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+}
